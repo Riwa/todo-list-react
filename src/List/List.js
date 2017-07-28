@@ -20,14 +20,14 @@ class List extends Component {
         this.state = { tasks }
     }
 
-    test(id) {
+    deleteTask(id) {
         alert('Here will stand the function to delete task #' + id)
     }
     
     render() {
     return (<ul>
     {this.state.tasks.map((task, index) => (
-        <li key={index}>{task.task} <button onClick={() => this.test(task.id)}>[X]</button></li>
+        <li key={index}>{task.task} <button onClick={() => this.deleteTask(task.id)}>[X]</button></li>
     ))}
     </ul>);
 }

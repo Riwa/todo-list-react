@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 
 class Add extends Component {
+
+    addTask() {
+        alert('Here will stand addTask function')
+    }
+
     render() {
         return (
             <div>
@@ -21,6 +26,7 @@ class Add extends Component {
                             <option value="selected">Normal</option>
                             <option>Low</option>
                         </select>
+                        <button onClick={() => this.addTask()} type="button">Save</button>
                     </div>
                 </form>
             </div>
