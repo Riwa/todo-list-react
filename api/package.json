@@ -35,8 +35,8 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
-    "axios": "^0.16.2",
     "chai": "^4.0.2",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "rethinkdb": "^2.3.3"
   }
 }

@@ -1,0 +1,23 @@
+2017-07-28T17:38:42.209095673 0.026065s notice: Recursively removing directory /home/arthur/Documents/todo-list/rethinkdb_data/tmp
+2017-07-28T17:38:42.222444517 0.039404s notice: Initializing directory /home/arthur/Documents/todo-list/rethinkdb_data
+2017-07-28T17:38:42.222596527 0.039555s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/arthur/Documents/todo-list/rethinkdb_data' did not already exist or is empty.)
+2017-07-28T17:38:42.222646703 0.039605s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2017-07-28T17:38:42.227038704 0.044001s notice: Running on Linux 4.10.0-27-generic x86_64
+2017-07-28T17:38:42.227145573 0.044105s notice: Loading data from directory /home/arthur/Documents/todo-list/rethinkdb_data
+2017-07-28T17:38:42.344949070 0.161908s info: Automatically using cache size of 1092 MB
+2017-07-28T17:38:42.350038604 0.166998s notice: Listening for intracluster connections on port 29015
+2017-07-28T17:38:42.357879296 0.174838s notice: Listening for client driver connections on port 28015
+2017-07-28T17:38:42.358062622 0.175021s notice: Listening for administrative HTTP connections on port 8080
+2017-07-28T17:38:42.358065370 0.175024s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-07-28T17:38:42.358068992 0.175027s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-07-28T17:38:42.358070820 0.175029s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-07-28T17:38:42.358081882 0.175040s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-07-28T17:38:42.358085618 0.175044s notice: Server ready, "arthur_ThinkPad_X220_e5x" fc85e1f6-a8cd-4933-983b-f8b3da3900cd
+2017-07-28T17:38:42.381337974 0.198297s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2017-07-28T17:39:27.148362455 44.965321s info: Table abb7b16c-d665-4d84-8ec2-e8fb0e7d63dc: Starting a new Raft election for term 1.
+2017-07-28T17:39:27.148686837 44.965645s info: Table abb7b16c-d665-4d84-8ec2-e8fb0e7d63dc: Added replica on this server.
+2017-07-28T17:39:27.166184143 44.983143s info: Table abb7b16c-d665-4d84-8ec2-e8fb0e7d63dc: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-28T17:39:33.470044410 51.287004s info: Table 5c739bd3-000c-4a11-b55e-6f6aced62369: Added replica on this server.
+2017-07-28T17:39:33.470135236 51.287102s info: Table 5c739bd3-000c-4a11-b55e-6f6aced62369: Starting a new Raft election for term 1.
+2017-07-28T17:39:33.491441440 51.308400s info: Table 5c739bd3-000c-4a11-b55e-6f6aced62369: This server is Raft leader for term 1. Latest log index is 0.
+2017-07-29T23:57:19.769682873 54600.766431s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
